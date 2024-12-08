@@ -106,7 +106,6 @@ function MiddleContent4() {
                                 src={image.src}
                                 alt={image.alt}
                                 className={cx('img-4', `img-4-${image.id}`)}
-                                loading="lazy"
                             />
                         ))}
                     </div>
