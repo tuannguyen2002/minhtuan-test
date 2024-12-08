@@ -1,0 +1,192 @@
+.block-middle-5-top {
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+
+    video {
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+        display: block;
+    }
+}
+
+.block-middle-5-bottom {
+    display: flex;
+    height: 842px;
+    padding: 77px 38px 32.719px 39.5px;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0px 816px 228px 0px rgba(245, 245, 245, 0.01), 0px 522px 209px 0px rgba(245, 245, 245, 0.06),
+        0px 294px 176px 0px rgba(245, 245, 245, 0.2), 0px 131px 131px 0px rgba(245, 245, 245, 0.34),
+        0px 33px 72px 0px rgba(245, 245, 245, 0.39);
+}
+
+.sub-middle-5-bottom {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    max-width: 1435.3px;
+    background-image: url('../../../images/Frame-1000007474.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.middle-5-bottom-left {
+    width: 253px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #f9f9f9;
+    gap: 42px;
+    margin-left: 50px;
+
+    span {
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        letter-spacing: -2px;
+    }
+
+    li {
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+        letter-spacing: -0.16px;
+    }
+
+    p {
+        width: 344px;
+        color: #f9f9f9;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%;
+        letter-spacing: -0.32px;
+    }
+}
+
+.btn-1 {
+    display: flex;
+    padding: 14px 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    border: 1px solid #3e4089;
+}
+
+.middle-5-bottom-right {
+    display: flex;
+    align-items: flex-start;
+    gap: 24.309px;
+    margin-left: 187.5px;
+    overflow: hidden;
+    margin-top: 85px;
+}
+
+.item-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.img-container {
+    position: relative;
+    width: 401px;
+    height: 490px;
+    border-radius: 14.025px;
+    overflow: hidden;
+
+    img {
+        width: 100%;
+        height: 100%;
+        flex-shrink: 0;
+        object-fit: cover;
+    }
+}
+
+.group-span {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.span16 {
+    width: 355px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    color: #fff;
+    text-overflow: ellipsis;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+    letter-spacing: -0.2px;
+}
+
+.span17 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    color: rgba(255, 255, 255, 0.81);
+    text-overflow: ellipsis;
+    text-shadow: 0px 2.152px 2.152px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: -0.14px;
+}
+
+.sticky {
+    width: 96px;
+    height: 34.34px;
+    position: absolute;
+    top: 19px;
+    left: 26px;
+    border-radius: 133.333px;
+    background: #fff;
+    backdrop-filter: blur(5.333333492279053px);
+    display: inline-flex;
+    padding: 6.667px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 13.333px;
+    color: #165bb8;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 0.048px;
+}
+
+@media (min-width: 1600px) {
+    .block-middle-5-bottom {
+        height: 1038px;
+    }
+
+    .sub-middle-5-bottom {
+        max-width: 1819.5px;
+    }
+}
+
+@media (max-width: 1450px) {
+    .block-middle-5-bottom {
+        height: 786px;
+    }
+}

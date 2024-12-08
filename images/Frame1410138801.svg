@@ -1,0 +1,35 @@
+<svg width="1599" height="1956" viewBox="0 0 1599 1956" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_14164_2262)">
+<rect width="1600" height="1955" transform="translate(-1 0.675781)" fill="white"/>
+<circle cx="1694" cy="1160.68" r="290.5" stroke="#3E4089" stroke-opacity="0.1"/>
+<circle cx="1694" cy="1160.68" r="309.5" stroke="#3E4089" stroke-opacity="0.09"/>
+<circle cx="1694" cy="1160.68" r="326.5" stroke="#3E4089" stroke-opacity="0.09"/>
+<circle cx="1694" cy="1160.68" r="345.5" stroke="#3E4089" stroke-opacity="0.06"/>
+<circle cx="1694" cy="1160.68" r="367.5" stroke="#3E4089" stroke-opacity="0.05"/>
+<circle cx="1694" cy="1160.68" r="389.5" stroke="#3E4089" stroke-opacity="0.03"/>
+<circle cx="82" cy="2188.68" r="290.5" stroke="#3E4089" stroke-opacity="0.1"/>
+<circle cx="82" cy="2188.68" r="309.5" stroke="#3E4089" stroke-opacity="0.09"/>
+<circle cx="82" cy="2188.68" r="326.5" stroke="#3E4089" stroke-opacity="0.09"/>
+<circle cx="82" cy="2188.68" r="345.5" stroke="#3E4089" stroke-opacity="0.06"/>
+<circle cx="82" cy="2188.68" r="367.5" stroke="#3E4089" stroke-opacity="0.05"/>
+<circle cx="82" cy="2188.68" r="389.5" stroke="#3E4089" stroke-opacity="0.03"/>
+<g opacity="0.4">
+<circle cx="-116" cy="566.676" r="290.5" stroke="#3E4089" stroke-opacity="0.1"/>
+<circle cx="-116" cy="566.676" r="309.5" stroke="#3E4089" stroke-opacity="0.09"/>
+<circle cx="-116" cy="566.676" r="326.5" stroke="#3E4089" stroke-opacity="0.09"/>
+<circle cx="-116" cy="566.676" r="345.5" stroke="#3E4089" stroke-opacity="0.06"/>
+<circle cx="-116" cy="566.676" r="367.5" stroke="#3E4089" stroke-opacity="0.05"/>
+<circle cx="-116" cy="566.676" r="389.5" stroke="#3E4089" stroke-opacity="0.03"/>
+</g>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M795.5 378.676C1281.79 378.676 1676 302.34 1676 208.176C1676 114.011 1281.79 37.6758 795.5 37.6758C309.213 37.6758 -85 114.011 -85 208.176C-85 302.34 309.213 378.676 795.5 378.676ZM1598 533.676H-2V749.676H1598V533.676Z" fill="url(#paint0_linear_14164_2262)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_14164_2262" x1="771.676" y1="37.6758" x2="771.676" y2="713.868" gradientUnits="userSpaceOnUse">
+<stop stop-color="#373981" stop-opacity="0.1"/>
+<stop offset="0.25" stop-color="#FFE1E5" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="clip0_14164_2262">
+<rect width="1600" height="1955" fill="white" transform="translate(-1 0.675781)"/>
+</clipPath>
+</defs>
+</svg>

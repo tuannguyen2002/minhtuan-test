@@ -1,0 +1,163 @@
+.wrapper {
+    height: 110vh;
+    background-image: url('../../../images/Frame.svg');
+    background-size: cover;
+}
+
+.menu {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 101px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 1s ease;
+}
+
+.menu.active {
+    background-color: #fff;
+}
+
+.menu.active .language,
+.menu.active .menu-expand {
+    background-color: #fff;
+    transition: background-color 1s ease;
+}
+
+.menu.active .active {
+    color: #2f2e79;
+    transition: color 1s ease;
+}
+
+.menu.active .icon {
+    background-color: #2f2e79;
+    transition: background-color 1s ease;
+}
+
+.block-logo {
+    display: flex;
+    width: 50%;
+    justify-content: flex-start;
+}
+
+.logo {
+    width: 110px;
+    height: 58px;
+    background-image: url('../../../images/Logo.svg');
+    background-size: cover;
+    margin-left: 100px;
+}
+
+.block-menu {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.language {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 6px 9px 7px;
+    width: 98px;
+    height: 50px;
+    margin-right: 11px;
+}
+
+.language,
+.menu-expand {
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(35, 31, 32, 0.13);
+}
+
+.language-vi {
+    background-color: #2f2e79;
+}
+
+.language-en {
+    color: white;
+}
+
+.language-vi,
+.language-en {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    color: white;
+    border-radius: 50%;
+
+    span {
+        color: #fff;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%;
+        letter-spacing: -0.14px;
+    }
+}
+
+.menu-expand {
+    width: 129px;
+    height: 50px;
+    margin-right: 100px;
+    padding: 14px 31px;
+    display: flex;
+    gap: 10px;
+
+    span {
+        color: #f9f9f9;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%;
+        letter-spacing: -0.16px;
+    }
+}
+
+.menu-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .icon {
+        margin-top: 3.82px;
+        background-color: #fff;
+        width: 14px;
+        height: 1.273px;
+    }
+}
+
+.slogan {
+    margin-left: 100px;
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    color: #fff;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    text-transform: uppercase;
+}
+
+.slogan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+}
+.line {
+    display: flex;
+    width: 100%;
+}
+.line span {
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(50px);
+    margin: 0 0.5rem; /* Khoảng cách giữa các từ */
+}

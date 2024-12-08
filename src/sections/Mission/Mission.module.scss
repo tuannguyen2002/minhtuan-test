@@ -1,0 +1,78 @@
+.wrapper {
+    margin-top: -1px;
+    height: 130vh;
+    background-image: url('../../../images/Frame_hero.svg');
+    background-size: cover;
+}
+
+.block-mission {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 115vh;
+}
+
+.hero-block {
+    color: #fff;
+    // position: absolute;
+    // bottom: 50%;
+    // left: 0;
+    width: 582px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 100px;
+}
+
+.mission {
+    li {
+        color: #fff;
+        text-shadow: 0px 4px 16.1px rgba(47, 46, 121, 0.19);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+        letter-spacing: -0.16px;
+    }
+}
+
+.hero {
+    h1 {
+        color: #fff;
+        width: 100%;
+        height: 156px;
+        font-size: 70px;
+        font-weight: 500;
+        line-height: 120%;
+        text-transform: uppercase;
+        overflow-wrap: break-word;
+        margin-top: 5px;
+        margin-bottom: 50px;
+    }
+
+    p {
+        text-shadow: 0px 4px 16.1px rgba(47, 46, 121, 0.19);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%;
+        letter-spacing: -0.36px;
+    }
+
+    .p1 {
+        width: 512px;
+        margin-bottom: 32px;
+    }
+}
+
+.mission-btn {
+    width: 289px;
+    height: 60px;
+    padding: 20px 34px 18px 34px;
+    align-items: center;
+    gap: 7px;
+    border-radius: 46px;
+    background: #2f2e79;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
