@@ -62,3 +62,53 @@ ScrollTrigger.create({
     end: () => '+=' + (images.length + 1) * window.innerHeight, // Điểm kết thúc dựa trên số lượng images và chiều cao cửa sổ
     invalidateOnRefresh: true, // Tái tính toán khi làm mới trình duyệt
 });
+
+//phần text (mỗi class 'info là một phần')
+<div className={cx('block-middle-2')}>
+    <div className={cx('slide-info')} ref={parentRef}>
+        <div className={cx('info')}>
+            <div className={cx('inf')}>
+                <img src={handLeaf} alt="" className={cx('img')} />
+                <span className={cx('span3')}>với cán bộ nhân viên</span>
+                <p className={cx('p')}>
+                    Cảm thấy gắn kết, được trân trọng, được tạo cơ hội để khai phá, phát triển, khẳng định giá trị bản
+                    thân
+                </p>
+            </div>
+        </div>
+        <div className={cx('info')}>
+            <div className={cx('inf')}>
+                <img src={customer} alt="" className={cx('img')} />
+                <span className={cx('span3')}>với khách hàng</span>
+                <p className={cx('p')}>
+                    Cung cấp các sản phẩm - dịch vụ theo tiêu chuẩn quốc tế, mang đến cho khách hàng những trải nghiệm
+                    tốt nhất
+                </p>
+            </div>
+        </div>
+        <div className={cx('info')}>
+            <div className={cx('inf')}>
+                <img src={shakeHand} alt="" className={cx('img')} />
+                <span className={cx('span3')}>Với đối tác</span>
+                <p className={cx('p')}>
+                    Tin tưởng và muốn hợp tác dài lâu trên nền tảng của sự phát triển bền vững và hướng tới những giá
+                    trị tốt đẹp
+                </p>
+            </div>
+        </div>
+        <div className={cx('info')}>
+            <div className={cx('inf')}>
+                <img src={aim} alt="" className={cx('img')} />
+                <span className={cx('span3')}>VỚI CỘNG ĐỒNG</span>
+                <p className={cx('p')}>
+                    Hài hòa lợi ích doanh nghiệp với lợi ích xã hội, đóng góp tích cực cho các hoạt động hướng về cộng
+                    đồng
+                </p>
+            </div>
+        </div>
+    </div>
+    //Phần pannel (thay vì có nhiều pannel, tôi chỉ có một pannel)
+    <div className={cx('block-slide-img')}>
+        <div className={cx('slide-img')}></div>
+    </div>
+</div>;

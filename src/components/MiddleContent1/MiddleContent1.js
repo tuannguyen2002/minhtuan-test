@@ -14,27 +14,25 @@ const cx = classNames.bind(styles);
 gsap.registerPlugin(ScrollTrigger);
 
 function MiddleContent1() {
-    const parentRef = useRef(null);
-    //const imageRef = useRef(null);
+    const imgRef = useRef(null);
+    const slideRef = useRef(null);
 
     useEffect(() => {
-        const parent = parentRef.current;
-        //const child = imageRef.current;
-
-        gsap.to(parent, {
-            scrollTrigger: {
-                trigger: parent,
-                markers: true,
-                start: 'top 20%',
-                //end: () => 'bottom-' + child.offsetHeight + ' center',
-                end: 'bottom 90%',
-                pin: true,
-                scrub: true,
-                toggleActions: 'play none reverse none',
-                pinSpacing: false,
-                invalidateOnRefresh: true,
-            },
-        });
+        // const img = imgRef.current;
+        // const slide = slideRef.current;
+        // gsap.to(slide, {
+        //     //duration: 8,
+        //     scrollTrigger: {
+        //         trigger: slide,
+        //         start: 'top 20%',
+        //         end: 'bottom 90%',
+        //         scrub: true,
+        //         toggleActions: 'none none reverse none',
+        //         pin: img,
+        //         pinSpacing: false,
+        //         markers: true,
+        //     },
+        // });
     }, []);
 
     return (
@@ -48,7 +46,8 @@ function MiddleContent1() {
                     <span className={cx('span2')}>Mang lại cuộc sống tốt đẹp hơn cho những người đồng hành</span>
                 </div>
             </div>
-            <div className={cx('block-middle-2')}>
+            <div className={cx('block-middle-2')} ref={slideRef}>
+                {/* Text Info */}
                 <div className={cx('slide-info')}>
                     <div className={cx('info')}>
                         <div className={cx('inf')}>
@@ -91,7 +90,9 @@ function MiddleContent1() {
                         </div>
                     </div>
                 </div>
-                <div className={cx('block-slide-img')} ref={parentRef}>
+
+                {/* Panel */}
+                <div className={cx('block-slide-img')} ref={imgRef}>
                     <div className={cx('slide-img')}></div>
                 </div>
             </div>

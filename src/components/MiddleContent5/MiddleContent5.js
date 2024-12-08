@@ -1,6 +1,6 @@
 import styles from './MiddleContent5.module.scss';
 import classNames from 'classnames/bind';
-import video from '../icons/video.mp4';
+import video from '../icons/Video1.mp4';
 import imgCard from '../icons/Rectangle-34625454.png';
 import { useEffect, useRef } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
