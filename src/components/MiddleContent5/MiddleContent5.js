@@ -56,7 +56,7 @@ function MiddleContent5() {
                     <div className={cx('middle-5-bottom-right')}>
                         <div className={cx('item-card')}>
                             <div className={cx('img-container')}>
-                                <img src={imgCard} alt="" />
+                                <img src={imgCard} alt="" loading="lazy" />
                             </div>
                             <div className={cx('group-span')}>
                                 <span className={cx('span16')}>
@@ -68,7 +68,7 @@ function MiddleContent5() {
                         </div>
                         <div className={cx('item-card')}>
                             <div className={cx('img-container')}>
-                                <img src={imgCard} alt="" />
+                                <img src={imgCard} alt="" loading="lazy" />
                             </div>
                             <div className={cx('group-span')}>
                                 <span className={cx('span16')}>
@@ -80,7 +80,7 @@ function MiddleContent5() {
                         </div>
                         <div className={cx('item-card')}>
                             <div className={cx('img-container')}>
-                                <img src={imgCard} alt="" />
+                                <img src={imgCard} alt="" loading="lazy" />
                             </div>
                             <div className={cx('group-span')}>
                                 <span className={cx('span16')}>

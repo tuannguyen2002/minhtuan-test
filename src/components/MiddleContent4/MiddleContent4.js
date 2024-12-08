@@ -86,13 +86,13 @@ function MiddleContent4() {
                         </div>
                     </div>
                     <div className={cx('middle-4-left-5')}>
-                        <img src={resource1} alt="" className={cx('img-2', 'img-2-1')} />
-                        <img src={resource2} alt="" className={cx('img-2', 'img-2-2')} />
-                        <img src={resource3} alt="" className={cx('img-2', 'img-2-3')} />
+                        <img src={resource1} alt="" className={cx('img-2', 'img-2-1')} loading="lazy" />
+                        <img src={resource2} alt="" className={cx('img-2', 'img-2-2')} loading="lazy" />
+                        <img src={resource3} alt="" className={cx('img-2', 'img-2-3')} loading="lazy" />
                     </div>
                 </div>
                 <div className={cx('block-middle-4-right')}>
-                    <img src={resourceImage} alt="" className={cx('img-3')} />
+                    <img src={resourceImage} alt="" className={cx('img-3')} loading="lazy" />
                 </div>
                 <div className={cx('block-middle-4-bottom')}>
                     <div className={cx('middle-4-bottom-1')}>
@@ -106,6 +106,7 @@ function MiddleContent4() {
                                 src={image.src}
                                 alt={image.alt}
                                 className={cx('img-4', `img-4-${image.id}`)}
+                                loading="lazy"
                             />
                         ))}
                     </div>

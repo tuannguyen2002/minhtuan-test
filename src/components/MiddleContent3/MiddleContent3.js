@@ -28,7 +28,7 @@ function MiddleContent3() {
                 <div className={cx('middle-3-right-info')}>
                     <div className={cx('inf-3')}>
                         <div className={cx('circle')}>
-                            <img src={moneyFlaticon} alt="" className={cx('img-3')} />
+                            <img src={moneyFlaticon} alt="" className={cx('img-3')} loading="lazy" />
                         </div>
                         <div className={cx('data')}>
                             <span className={cx('span10')}>686 tỷ</span>
@@ -39,7 +39,7 @@ function MiddleContent3() {
                 <div className={cx('middle-3-right-info')}>
                     <div className={cx('inf-3')}>
                         <div className={cx('circle')}>
-                            <img src={leafFlaticon} alt="" className={cx('img-3')} />
+                            <img src={leafFlaticon} alt="" className={cx('img-3')} loading="lazy" />
                         </div>
                         <div className={cx('data')}>
                             <span className={cx('span10')}>93,9 tỷ</span>
@@ -50,7 +50,7 @@ function MiddleContent3() {
                 <div className={cx('middle-3-right-info')}>
                     <div className={cx('inf-3')}>
                         <div className={cx('circle')}>
-                            <img src={financingIcons} alt="" className={cx('img-3')} />
+                            <img src={financingIcons} alt="" className={cx('img-3')} loading="lazy" />
                         </div>
                         <div className={cx('data')}>
                             <span className={cx('span10')}>24,6 tỷ</span>
@@ -61,7 +61,7 @@ function MiddleContent3() {
                 <div className={cx('middle-3-right-info')}>
                     <div className={cx('inf-3')}>
                         <div className={cx('circle')}>
-                            <img src={projectFlaticon} alt="" className={cx('img-3')} />
+                            <img src={projectFlaticon} alt="" className={cx('img-3')} loading="lazy" />
                         </div>
                         <div className={cx('data')}>
                             <span className={cx('span10')}>20+ </span>
@@ -72,7 +72,7 @@ function MiddleContent3() {
                 <div className={cx('middle-3-right-info', 'middle-3-right-info-0')}>
                     <div className={cx('inf-3')}>
                         <div className={cx('circle')}>
-                            <img src={buildingFlaticon} alt="" className={cx('img-3')} />
+                            <img src={buildingFlaticon} alt="" className={cx('img-3')} loading="lazy" />
                         </div>
                         <div className={cx('data')}>
                             <span className={cx('span10')}>03 văn phòng</span>

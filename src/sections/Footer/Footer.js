@@ -9,7 +9,7 @@ function Footer() {
         <div className={cx('wrapper')}>
             <div className={cx('block-footer-top')}>
                 <div className={cx('footer-top-left')}>
-                    <img src={logoFooter} alt="" />
+                    <img src={logoFooter} alt="" loading="lazy" />
                     <div className={cx('footer-top-left-1')}>
                         <div className={cx('title')}>Đăng ký nhận thông tin từ Ami&M</div>
                         <div className={cx('block-input')}>
