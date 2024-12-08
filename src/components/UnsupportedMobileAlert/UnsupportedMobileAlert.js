@@ -7,7 +7,7 @@ const UnsupportedMobile = () => {
             <div style={styles.overlay}>
                 <div style={styles.messageBox}>
                     <h2>Unsupported Mobile Version</h2>
-                    <p>Vui lòng truy cập bằng máy tính.</p>
+                    <h2>Vui lòng truy cập bằng máy tính.</h2>
                 </div>
             </div>
         );
@@ -18,18 +18,20 @@ const UnsupportedMobile = () => {
 
 const styles = {
     overlay: {
-        position: 'fixed',
+        position: 'absoluted',
         top: 0,
         left: 0,
-        width: '100vw',
-        height: '100vh',
+        width: '100%',
+        height: '100%',
+        minHeight: '100vh',
         backgroundColor: 'black',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        zIndex: 9999,
+        zIndex: 9000,
     },
     messageBox: {
+        position: 'fixed',
         textAlign: 'center',
         color: 'white',
         backgroundColor: 'rgba(255, 255, 255, 0.1)',
