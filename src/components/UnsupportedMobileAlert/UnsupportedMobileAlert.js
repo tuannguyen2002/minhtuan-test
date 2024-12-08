@@ -1,31 +1,19 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import { isMobile } from 'react-device-detect';
 
-const UnsupportedMobileAlert = () => {
-    const [isMobile, setIsMobile] = useState(false);
-
-    useEffect(() => {
-        const checkScreenSize = () => {
-            setIsMobile(window.innerWidth <= 768);
-        };
-
-        checkScreenSize();
-        window.addEventListener('resize', checkScreenSize);
-
-        return () => {
-            window.removeEventListener('resize', checkScreenSize);
-        };
-    }, []);
-
-    return (
-        isMobile && (
+const UnsupportedMobile = () => {
+    if (isMobile) {
+        return (
             <div style={styles.overlay}>
                 <div style={styles.messageBox}>
                     <h2>Unsupported Mobile Version</h2>
-                    <h2>Vui lòng truy cập bằng máy tính.</h2>
+                    <p>Vui lòng truy cập bằng máy tính.</p>
                 </div>
             </div>
-        )
-    );
+        );
+    }
+
+    return null;
 };
 
 const styles = {
@@ -50,4 +38,4 @@ const styles = {
     },
 };
 
-export default UnsupportedMobileAlert;
+export default UnsupportedMobile;
